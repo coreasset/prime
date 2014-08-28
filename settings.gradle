@@ -1,0 +1,6 @@
+rootProject.name = 'prime'
+
+include 'lib'
+
+include 'prime-core'
+

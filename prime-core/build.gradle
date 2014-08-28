@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+
+sourceCompatibility = 1.7
+
+group = "coreasset"
+version = "1.0"
+
+jar {
+    baseName = "prime-core"
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile project (':lib')
+}
